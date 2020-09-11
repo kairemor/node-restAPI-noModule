@@ -1,0 +1,15 @@
+POST http://localhost:3000/sample
+Content-Type: text/plain
+
+This the content of the body
+
+### 
+POST http://localhost:3000 
+Content-Type: application/json
+
+{
+    "name":"kaire"
+}
+
+### 
+GET http://localhost:3000/ping
